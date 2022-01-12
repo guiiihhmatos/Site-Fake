@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+body
+{
+
+    background-image: url(imagem.jpg);
+    background-size: cover;
+}
+
+header
+{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.Contexto a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+}
+.Contexto a:hover
+{
+    color: #606060;
+    transition: 0.4s;
+}
+
+h2
+{
+    color: white;
+}
